@@ -1,49 +1,14 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <title>VLEE: null</title>
   
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="max-width, initial-scale=1.0" />
     
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <style type="text/css">
-    body {
-        font-family:Helvetica, Arial, sans-serif;
-        color:#535353;
-    }
-
-    table, tbody, tr, td, img, p, a, a:visited {
-        margin:0;
-        border:0;
-        line-height:0px;
-    }
-
-    table#container {
-        width:687px;
-    }
-
-    table#header {
-        height:142px;
-    }
-
-    table#bodyupper_content {
-        font-size:16px;
-    }
-
-    table#bodyupperfooter {
-        height:26px;
-        background:url('http://cdn.pricelock.com/assets/images/connect/email/body_border_footer.gif') left top no-repeat;
-    }
-
-    table#bodylower {
-        text-align:center;
-    }
-
-    table#footer {
-        height:37px;
-        background:url('http://cdn.pricelock.com/assets/images/connect/email/footer.gif') left top no-repeat;
-    }
-	
+   
 	
 	
 	
@@ -52,13 +17,13 @@
 		 table[id=container] {
         width:360px!important;}
 		
-		table[id=header] {
-        width:360px !important;
-            height: 110px !important;
-            background:url('http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/headermobile.png') left top no-repeat !important;}
 		
 		table[id=header] img{
         display:none!important;}
+		
+		table[id=header] {
+        margin-left: 1px!important;}
+	
 		
 		table[id=preheader] {
         width:350px!important;}
@@ -170,31 +135,29 @@
 
 
         table[id=bodyupperfooter] {
-            width:360px !important;
-            height:22px !important;
-            background:url('http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/bodycontainmobile.png') left top no-repeat !important;
+            margin-left: 1px!important;
         }
 	
 		
 		table[id=bodylower] {
         width:360px!important;
+		margin-left: 1px!important;
 		}
 				
 		table[id=bodylowerinnertext] {
-        width:360px!important;}
+        width:360px!important;
+		margin-left: 1px!important;}
 			
 			table[id=footerbody] {
-        width:360px!important;}
+        width:360px!important;
+		margin-left: 1px!important;}
 			
 			table[id=footer] img{
         display: none!important;}
 		
-		 table[id=footer] {
-            width:360px !important;
-            height:50px !important;
-            background:url('http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/footermobile.png') left top no-repeat !important;
-        }
-		
+		table[id=footer] {
+		margin-left: 1px!important;}
+	
 			table[id=footerspacer] {
         display: none!important;}
 		
@@ -224,6 +187,38 @@ height: 15px!important;
 
 		
     }
+	
+	
+	 body {
+        font-family:Helvetica, Arial, sans-serif;
+        color:#535353;
+    }
+
+    table, tbody, tr, td, img, p, a, a:visited {
+        margin:0;
+        border:0;
+        line-height:0px;
+    }
+
+    table#container {
+        width:687px;
+    }
+
+    table#header {
+        height:142px;
+    }
+
+    table#bodyupper_content {
+        font-size:16px;
+    }
+
+
+    table#bodylower {
+        text-align:center;
+    }
+
+   
+	
 	
     </style>
     <!--[if gte mso 9]>
@@ -255,7 +250,7 @@ height: 15px!important;
                 <!-- Start Email Header -->
                 <tr>
                     <td>
-                        <table cellpadding="0" cellspacing="0" border="0" id="header">
+                        <table background="http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/headermobile.png" width="360" height="110" style="background-repeat: no-repeat; margin-bottom: -30px;"cellpadding="0" cellspacing="0" border="0" id="header">
                             <tr>
                                 <td>
                                     <img src="http://cdn.pricelock.com/assets/images/connect/email/header_invite.gif" border="0" alt="" style="display:block;"/>
@@ -440,7 +435,7 @@ height: 15px!important;
                 <!-- Body Upper Footer -->
                 <tr>
                     <td>
-                        <table cellpadding="0" cellspacing="0" border="0" id="bodyupperfooter">
+                        <table background="http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/bodycontainmobile.png" width="360" height="22" style="background-repeat: no-repeat;" cellpadding="0" cellspacing="0" border="0" id="bodyupperfooter">
                             <tr>
                                 <td>
                                     <img src="http://cdn.pricelock.com/assets/images/connect/email/body_border_footer_invite.gif" border="0" alt="" style="display:block;"/>
@@ -535,7 +530,7 @@ If you no longer wish to receive these emails, click on the following link: <a h
                 <!-- Start Email Footer -->
                 <tr>
                     <td>
-                        <table cellpadding="0" cellspacing="0" border="0" id="footer">
+                        <table background="http://s3.pricelock.com.s3.amazonaws.com/assets/images/connect/email/footermobile.png" width="360" height="37" style="background-repeat: no-repeat;" cellpadding="0" cellspacing="0" border="0" id="footer">
                             <tr>
                                 <td>
                                     <img src="http://cdn.pricelock.com/assets/images/connect/email/footer.gif" border="0" alt="" style="display: block;"/>
@@ -554,4 +549,3 @@ If you no longer wish to receive these emails, click on the following link: <a h
 <!-- end Main Wrapper -->
 </body>
 </html>
-
